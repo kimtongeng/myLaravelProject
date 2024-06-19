@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.main .image-item{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .image-item img{
+    width: 50%;
+}
+.main .info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.main .info .available{
+    font-family: "REM", sans-serif;
+    font-size: 22px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.main .info .brand{
+    font-family: "REM", sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.main .info .name{
+    font-family: "REM", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.main .info .price{
+    font-family: "REM", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.main .info .btn{
+    display: flex;
+    margin-top: 70px;
+    gap: 10px;
+}
+.main .info .btn .bag{
+    width: 60%;
+    padding: 10px 0px;
+    color: white;
+    font-family: "REM", sans-serif;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.main .info .btn .fav{
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    background-color: white;
+    display: flex;
+}
+.main .info .btn .fav i{
+    margin-left: 10px;
+}
+.main .info .return{
+    font-family: "REM", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.169);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.detail h4{
+    color: rgba(128, 128, 128, 0.864);
+    font-weight: 400;
+    font-family: "REM", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.detail-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-info{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.conscious{
+    width: 50%;
+}
+.conscious .title{
+    font-size: 20px;
+}
+.conscious .brand{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.conscious .name{
+    margin-top: -10px;
+    font-size: 20px;
+    font-size: 300;
+    letter-spacing: 1px;
+    font-family: "REM", sans-serif;
+}
+.conscious .about-detail{
+    font-family: "REM", sans-serif;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.conscious .hightlights{
+    margin-top: 40px;
+}
+.conscious .hightlights p{
+    font-family: "REM", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.conscious .hightlights ul{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family: "REM", sans-serif;
+}
+.conscious .hightlights li{
+    margin-top: 5px;
+}
+.composition .title{
+    font-size: 20px;
+}
+.composition .detail-con{
+    font-family: "REM", sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+.composition .warnning{
+    display: flex;
+    flex-direction: column;
+    font-family:"REM", sans-serif;
+    gap: 10px;
+    margin-top: 40px;
+}
+.composition .warnning p:nth-child(1){
+    font-weight: 600;
+    font-size: 18px;
+}
+.detail-contain .detail-image{
+    width: 27%;
+}
+.detail-contain .detail-image img{
+    width: 100%;
+}
+
+
+@media (width<1330px) {
+    .main .info .available{
+        font-size: 18px;
+    }
+    .main .info .brand{
+        font-size: 23px;
+    }
+    .main .info .name{
+        font-size: 25px;
+    }
+    .main .info .price{
+        font-size: 20px;
+    }
+    .main .info .btn .fav p{
+        display: none;
+
+    }
+    .main .info .btn .fav{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .main .info .btn .fav i{
+        margin: 0px;
+    }
+    .detail-info{
+        gap: 50px;
+    }
+    .main .info .btn .bag{
+        width: 80%;
+    }
+}
+@media (width<1030px) {
+    .main .info .available{
+        font-size: 16px;
+    }
+    .main .info .brand{
+        font-size: 20px;
+    }
+    .main .info .name{
+        font-size: 22px;
+    }
+    .main .info .price{
+        font-size: 20px;
+    }
+    .main .info .btn .fav p{
+        display: none;
+
+    }
+    .main .info .btn .fav{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .main .info .btn .fav i{
+        margin: 0px;
+    }
+    .detail-info{
+        gap: 50px;
+    }
+    .main .info .btn .bag{
+        width: 80%;
+        font-size: 15px;
+    }
+    .detail h4{
+        font-size: 16px;
+    }
+    .conscious .title{
+        font-size: 20px;
+    }
+    .conscious .brand{
+        font-size: 22px;
+    }
+    .conscious .name{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .conscious .about-detail{
+        font-size: 15px;
+    }
+    .main-product .container{
+        width: 90%;
+    }
+}
+@media (width<530px) {
+    .main .image-item{
+        align-items: start;
+        width: 60%;
+    }
+    .main .info{
+        width: 35%;
+    }
+    .main .info .available{
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .main .info .brand{
+        font-size: 20px;
+    }
+    .main .info .name{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .main .info .price{
+        font-size: 20px;
+    }
+    .main .info .btn{
+        flex-wrap: wrap;
+    }
+    .main .info .btn .fav p{
+        display: none;
+    }
+    .main .info .btn .fav{
+        padding: 5px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px ;
+    }
+    .main .info .btn .fav i{
+        margin: 0px;
+    }
+    .detail-info{
+        gap: 40px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main .info .btn .bag{
+        width:100%;
+        padding: 3px 0px;
+        font-size: 14px;
+    }
+
+    .detail h4{
+        font-size: 13px;
+    }
+    .conscious{
+        width: 100%;
+    }
+    .conscious .title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .conscious .brand{
+        font-size: 22px;
+    }
+    .conscious .name{
+        margin-top: -2px;
+        font-size: 18px;
+
+    }
+    .conscious .about-detail{
+        font-size: 16px;
+    }
+    .detail-contain .detail-image{
+        display: none;
+    }
+    .main-product .container{
+        width: 95%;
+    }
+}
+

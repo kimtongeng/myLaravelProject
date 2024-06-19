@@ -1,0 +1,21 @@
+.cart-item .cart-table{
+    width: 100%;
+}
+.cart-item th{
+    width: 12.5%;
+    font-size: 15px;
+}
+.cart-item td{
+    width: 12.5%;
+    font-size: 15px;
+    padding: 15px 0px;
+}
+.cart-item td a{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.cart-item td a:hover{
+    background-color: rgba(0, 0, 0, 0.798);
+}

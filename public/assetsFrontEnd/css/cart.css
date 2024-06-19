@@ -1,0 +1,126 @@
+.cart-product{
+    min-height: 460px;
+}
+.cart-item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary{
+    width: 20%;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.summary .title{
+   
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.summary .sub-total{
+    margin-top: 10px;
+    font-weight: 300;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.summary hr{
+    margin: 20px 0px;
+    border-top: 1px solid rgb(91, 91, 91);
+    width: 100%;
+}
+.summary .total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.summary .total p:nth-child(1){
+    font-weight: bold;
+}
+.summary .total span{
+    font-weight: bold;
+}
+.summary .checkout{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cart-item .cart-table{
+    width: 75%;
+}
+.cart-item table {
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    border-collapse:collapse;
+}
+.cart-item th{
+    width: 16.66%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.229);
+    padding-bottom: 20px;
+}
+.cart-item td{
+    width: 16.66%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.229);
+    padding: 5px 0px;
+}
+.cart-item .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cart-item img{
+width: 80%;
+
+}
+
+
+@media (width<1330px) {
+    .cart-item img{
+        width: 100%;
+    }
+    .cart-product .container{
+        width: 85%;
+    }
+}
+@media (width<1030px) {
+    .cart-product .container{
+        width: 95%;
+    }
+    .cart-item table{
+        font-size: 14px;
+    }
+    .summary .title{
+        font-size: 20px;
+
+    }
+    .summary .sub-total{
+        font-size: 14px;
+    }
+    .summary .total{
+        font-size: 15px;
+    }
+    .summary .checkout{
+        font-size: 14px;
+        padding: 7px 0px;
+    }
+}
+@media (width<530px) {
+    .cart-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cart-item .cart-table{
+        width: 100%;
+    }
+    .summary{
+        width: 90%;
+        margin-top: 20px;
+    }
+}
